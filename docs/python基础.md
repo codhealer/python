@@ -69,3 +69,26 @@ time对象>>
 calendar对象>>
 
 ```
+7. 关键词
+```
+包，模块导入：
+import [module] 和from ... import [导入包所有模块 from ... import *]
+
+系统方法（前后双下划线）：
+__name__，__init__，__main__，__del__，__setitem__，__getitem__，
+__len__，__cmp__，__call__，
+__add__，__sub__，__mul__，__div__，__mod__，__pow__
+
+异常处理：
+try:
+    ...
+except **Error:
+    ...
+    raise #重新抛出异常
+finally:
+    ...
+
+面向对象：
+    类：class xxx(super class):，方法 def f(args):
+    类属性访问：self(推荐用self)，this
+```
