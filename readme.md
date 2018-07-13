@@ -9,3 +9,13 @@ vscode可以很方便支持前端的开发，有点加强版的sublime。
 1. 开始说明
 - 首先从github clone对应的分支到本地
 - 然后将目录导入到工作区进行进行开发了
+
+# requests返回结构
+- status_code 返回码
+- content 内容
+
+# xpath使用
+
+- xpath需要导入etree这个包（from lxml import etree)
+- 获取html结构的内容：selector = etree.HTML(res.content)
+- 根据xpath表达式进行选取节点：selector.xpath('xpath表达式')
